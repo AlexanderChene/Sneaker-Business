@@ -1,0 +1,7 @@
+<?php 
+    		       for($j=0; $j<count($res);$j++){
+    		             
+    		             echo "<td>".$arr[$i][$res[$j]]."</td>";
+    		         }
+    		       
+    		  ?>

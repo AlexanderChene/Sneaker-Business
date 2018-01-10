@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+* {
+	margin:0px;
+	padding:0px;	
+}
+body {
+	background-image:url(image/shop.jpg);
+	font-family:Arial, Helvetica, sans-serif;
+	background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+	
+}
+
+p {
+	font-family:Arial, Helvetica, sans-serif;
+}
+.container {
+	width:999px;
+	background-color:#FFF;
+	margin-left:auto;
+	margin-right:auto;
+}
+.header {
+	width:999px;
+	height:100px;
+	border-bottom-width:1px;
+	border-bottom-color:#000;
+	border-bottom-style:solid;
+}
+.logo {
+	float:left;
+}
+.navigation {
+	float:right;
+	margin-top:55px;
+	margin-right:20px;
+}
+.banner {
+	clear:both;
+	padding-top:10px;
+}
+.maincontent {
+	width:600px;
+	float:left;
+	padding:20px;
+}
+.footer {
+	clear:both;
+}
+
+.navigation a:link {
+	text-decoration:none;
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 0px 10px 0px 10px;
+}
+.navigation a:visited {
+	text-decoration:none;
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 0px 10px 0px 10px;
+}
+.navigation a:hover {
+	text-decoration:underline;
+	color:#000;
+	font-fsamily:Arial, Helvetica, sans-serif;
+	margin: 0px 10px 0px 10px;
+}
+.banner {
+	clear:both;
+	padding-top:0px;
+}
+.footer {
+	clear:both;
+}
